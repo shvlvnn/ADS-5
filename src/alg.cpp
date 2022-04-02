@@ -2,7 +2,6 @@
 #include <map>
 #include "tstack.h"
 using namespace std;
-
 int prior(char ch) {
     switch (ch) {
         case '(': return 0;
