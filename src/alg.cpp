@@ -14,7 +14,6 @@ int prior(char ch) {
         default: return -1;
     }
 }
-
 string infx2pstfx(string inf) {
     TStack<char> stack1;
     string tmp = "";
@@ -54,7 +53,6 @@ string infx2pstfx(string inf) {
     }
     return tmp;
 }
-
 int excute_calc(int k1, int k2, char pst) {
     switch (pst)
     {
@@ -65,7 +63,6 @@ int excute_calc(int k1, int k2, char pst) {
     default: return -1;
     }
 }
-
 int eval(string pst) {
     TStack<int> stack2;
     for (int i = 0; i < pst.size(); i++) {
